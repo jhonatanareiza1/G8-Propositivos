@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css" />
+  <title>Sign in</title>
+</head>
+<body>
+  <div class="h-screen w-full  bg-principal flex items-center justify-center">
+    <div class="max-w-lg w-full border-2 border-black p-4 rounded-lg bg-green-400">
+      <p class="font-bold">Sign in</p>
+      <div class="flex w-full items-center justify-center">
+        <form class="w-3/4">
+          <div class="mt-8">
+            <input type="text" id="first_name" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="usuario" required>
+          </div>
+          <div class="mt-8">
+            <input type="text" id="first_name" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="contraseña" required>
+          </div>
+          <div class="mt-8">
+            <a href="./recuperar-contrasena.html" class="underline text-blue-800 font-bold">¿Olvido la contraseña?</a>
+          </div>
+          <div class="mt-8">
+            <a href="./cuenta.html" class="underline text-blue-800 font-bold">Crear cuenta</a>
+          </div>
+          <div class="mt-8">
+            <button onclick="location.href='home.html'" type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 font-bold">Ingresar</button>
+            <button type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 font-bold">Borrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
